@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sarbajit/Desktop/MyTFTP/mytftp.c
+stdio.h
+-
+stdbool.h
+-
+string.h
+-
+stdlib.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+unistd.h
+-
+sys/time.h
+-
+
